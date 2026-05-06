@@ -72,3 +72,27 @@ h1 {
     color: #f2f2f2;
     font-size: small;
 }
+
+table {
+    width: 80%;
+    border: 1px solid #373737;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td {
+    border: 1px solid #373737;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    border: 1px solid #373737;
+    padding: 8px;
+    text-align: left;
+    background-color: #43b5cf;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #9cf03d;
+}
