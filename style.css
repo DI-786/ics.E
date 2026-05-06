@@ -49,12 +49,21 @@ h1 {
     content: "";
     clear: both;
     display: block;
+    
 }
 .sidebar {
     float: left;
     width: 30%;
     border-left: #373737 1px solid ;
     padding: 20px;
+}
+@media screen and (max-width: 900px) {
+    .content,  .sidebar {
+        float: none;
+        width: 100%;
+        border-bottom: #373737 1px solid ;
+    }
+    
 }
 .footer {
     background-color: #373737;
