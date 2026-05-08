@@ -96,3 +96,13 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #9cf03d;
 }
+.before_img {
+    overflow: hidden;
+    text-align: center;
+}
+.before_img img {
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
