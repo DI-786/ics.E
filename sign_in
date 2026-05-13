@@ -16,11 +16,7 @@
             <a href="effects.html">Effects page</a>
              <a href="help.html">Help page</a>
              <a href="contact_form.html">Contact Form</a>
-             <div class="toplinks-right">
-             <a href="sign_in.html">Sign In</a>
-             <a href="sign_up.html">Sign Up</a>
         </div>
- </div>
 
         <div class="banner">banner</div>
         <div class="comfort"></div>
@@ -35,30 +31,22 @@
             <label for="full name">Full Name:</label>
             <input type="text" id="full name" placeholder="Enter your name" required/><br></br>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email" required/><br></br>
-            
             <label for="phone">Phone Number:</label>
             <input type="number" id="phone" placeholder="Enter your phone number" required/><br></br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required/><br></br>
             
             <label for="password">Password:</label>
             <input type="password" id="password" placeholder="Enter your password" required/><br></br>
             
-            <label for="subject">Subject:</label>
-             <select name="Subject" id="subject" required>
-                <option value="">Select your subject line</option>
-                <option value="ams">AMS </option>
-                <option value="elearning">elearning</option>
-                <option value="technical">Technical</option>
-                <option value="general">General Inquiry</option>
-            </select> <br></br>
+            <label for="sign in">Sign In:</label>
+            <input type="submit" value="Sign In"/> <br></br>
 
             <label for="message">Message:</label> <br></br>
             <textarea placeholder="Enter your message here..." required></textarea><br></br>
             <input type="submit" value="Update Message"/> <br></br>  
             <button type="submit">Send Message</button> <br></br>
-            <!-- <input type="reset" value="Reset Form"/> <br></br> -->
-
             </form>
             </div>
         </body>
