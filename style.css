@@ -21,13 +21,12 @@ nav a:hover {
     color: #3498db; 
 }
 .toplinks { 
-    background: #2c3e50; 
+    background: #688db3; 
     padding: 10px; 
     text-align: center;
-    text-color: white; 
 }
 .toplinks a:hover { 
-    color: #3498db; 
+    color: #181e22; 
 }
 .toplinks-right { 
     float: right; 
